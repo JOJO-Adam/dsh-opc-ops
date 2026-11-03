@@ -1,0 +1,57 @@
+{
+  "name": "@jojonadam/dsh-opc-ops",
+  "version": "0.1.0",
+  "description": "One-person-company operations SOP for DeepSeek Harness: 8-field company profile, daily cycle (morning brief → two shifts → evening report), ledger and cash snapshot, quote/contract shapes, and six red lines with a human-approval outbox.",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json"
+  },
+  "files": [
+    "lib",
+    "skills",
+    "cordis.patch.yml",
+    "icon.svg",
+    "README.md",
+    "LICENSE",
+    "locale"
+  ],
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "solo-company",
+    "ops",
+    "ledger",
+    "invoicing",
+    "daily-report"
+  ],
+  "license": "MIT",
+  "author": "JOJO & Adam",
+  "homepage": "https://jojo-adam.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JOJO-Adam/dsh-opc-ops.git"
+  },
+  "engines": {
+    "dsh": ">=0.2.0-rc.2",
+    "node": ">=20"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "bugs": {
+    "url": "https://github.com/JOJO-Adam/dsh-opc-ops/issues"
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "~4.0.5"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "icon": "icon.svg"
+}
