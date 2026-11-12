@@ -1,5 +1,8 @@
 # dsh-opc-ops · JOJO&Adam
 
+> English: [README.en.md](README.en.md)
+
+
 一人公司在 DeepSeek Harness 里的运营 SOP：首启 8 字段建公司档案，按「晨报 → 上午档 → 下午档 → 晚报」跑日循环，台账、报价、合同、日报全部落档；法定动作只出材料与指引，对外件先入待发池等人确认。
 
 不是「教你怎么开公司」，是让 agent 每天真的把运营这件事做下去，且每一步留痕。

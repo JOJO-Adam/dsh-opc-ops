@@ -1,6 +1,6 @@
 {
   "name": "@jojonadam/dsh-opc-ops",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "One-person-company operations SOP for DeepSeek Harness: 8-field company profile, daily cycle (morning brief → two shifts → evening report), ledger and cash snapshot, quote/contract shapes, and six red lines with a human-approval outbox.",
   "type": "module",
   "main": "lib/index.js",
@@ -17,7 +17,8 @@
     "icon.svg",
     "README.md",
     "LICENSE",
-    "locale"
+    "locale",
+    "README.en.md"
   ],
   "keywords": [
     "dsh-plugin",
